@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/screensavvy/static/css/main.34953fe1.css",
+    "main.js": "/screensavvy/static/js/main.a47b1a5d.js",
+    "static/js/787.1523ccee.chunk.js": "/screensavvy/static/js/787.1523ccee.chunk.js",
+    "index.html": "/screensavvy/index.html",
+    "main.34953fe1.css.map": "/screensavvy/static/css/main.34953fe1.css.map",
+    "main.a47b1a5d.js.map": "/screensavvy/static/js/main.a47b1a5d.js.map",
+    "787.1523ccee.chunk.js.map": "/screensavvy/static/js/787.1523ccee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34953fe1.css",
+    "static/js/main.a47b1a5d.js"
+  ]
+}

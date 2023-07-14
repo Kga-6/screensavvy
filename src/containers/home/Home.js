@@ -190,7 +190,7 @@ const Home = () => {
 
   const player = useRef(null)
   const [trailer,setTrailer] = useState()
-  const [view,setView] = useState(true)
+  const [view,setView] = useState(false)
  
   const handleMenu = () => {
     console.log(menuRef)

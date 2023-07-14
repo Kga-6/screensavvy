@@ -24,6 +24,7 @@
 .swiper-titles {
   position: relative;
   transition: 0.25s;
+   cursor: default !important;
 }
 
 .swiper-content{

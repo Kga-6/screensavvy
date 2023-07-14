@@ -5,7 +5,7 @@ const lang = "en-US"
 const options = {
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2MDg2Mzk0NjQ0OThjZjU4OGI4M2VjODQzYjI1N2EzZCIsInN1YiI6IjY0ODdkNzFkZTI3MjYwMDBlOGMyMzRlMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.RX6-ZttCKcNFaxwqrRp0D8Ic5h1jg9H5InJ6ugE-ABw'
+    Authorization: process.env.REACT_APP_TMADB
   }
 };
 

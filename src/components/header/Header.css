@@ -1,0 +1,126 @@
+
+.header{
+  padding: 18px 28px;
+  background-color: #22577A;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+}
+.header-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo-title{
+  font-size: 28px;
+  font-weight: bolder;
+  color: white;
+  user-select: none;
+}
+
+.filters{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 18px 28px;
+  padding-right: 0;
+  gap: 8px;
+  background-color: #22577a34;
+  overflow: hidden;
+}
+.filter-split{
+  opacity: 0.2;
+}
+.filter-select{
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  border-style: none;
+  width: 190px;
+}
+.filter-select:focus{
+  outline: none;
+}
+.filter-right-content{
+  overflow: auto;
+}
+
+.filter-right-content::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+.filter-right-content::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 99999px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+
+.filter-right-content::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.filter-right-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.filter-right-content::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.filter-right-content::-webkit-scrollbar-track:active {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.filter-tags{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 12px;
+  width: max-content;
+}
+
+@media screen and (max-width: 600px) {
+  .header{
+    padding: 12px 12px;
+  }
+  .filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+  }
+  .filter-right-content{
+    width: 100%;
+  }
+  .filter-left-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+
+  }
+  .filter-select{
+    flex-grow: 1;
+    margin: 8px 8px 0px 8px;
+  }
+  .filter-split{
+    display: none;
+  }
+  .filter-tags{
+    margin-left: 8px;
+  }
+}

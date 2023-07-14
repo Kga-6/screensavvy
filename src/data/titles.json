@@ -1,0 +1,10 @@
+{
+  "top10": {
+    "title": "Top 10",
+    "describe": "These <span style=\"color:#22577A\"><strong>movies</strong></span> are determined by the number of times they have been viewed and are considered the best of all time."
+  },
+  "mw": {
+    "title": "Most Watched",
+    "describe": "These <span style=\"color:#22577A\"><strong>movies</strong></span> are determined by the number of times they have been viewed."
+  }
+}

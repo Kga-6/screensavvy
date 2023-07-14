@@ -1,0 +1,126 @@
+.control{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 1000000000;
+  width: 400px;
+  padding: 24px;
+} 
+.control[data-show]{
+  display: block;
+}
+.control-h1{
+  font-size: 28px;
+  color: black;
+  margin-bottom: 18px;
+}
+.control-header{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.personal{
+  margin-bottom: 18px;
+}
+.control-btn{
+  background-color: white;
+  border-radius: 8px;
+  border-width: 1px;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgb(245, 245, 245);
+}
+.control-actions{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.control-action{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-style: none;
+  height: 45px;
+  cursor: pointer;
+}
+.control-action-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.control-search{
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(245, 245, 245);
+  border-width: 1px;
+}
+.control-search-disable{
+  background-color: white;
+  color: rgb(245, 245, 245);
+  cursor:default;
+}
+
+.control-btn-selected{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bolder;
+}
+
+.control-action-container{
+  box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 0.26);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(245, 245, 245);
+  border-width: 1px;
+  padding: 4px 12px;
+}
+.control-action-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+
+.control-sort-select{
+  height: 44px;
+  background-color: #e4e7eb;
+  border-style: none;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.control-sort-select:hover{
+  background-color: #dbdfe4;
+}
+
+@media screen and (max-width:800px) {
+  .control{
+    position: absolute;
+    width: 95vw;
+    padding: 12px;
+    background-color: white;
+    z-index: 2;
+    display: none;
+  }
+}
